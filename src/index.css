@@ -1,0 +1,50 @@
+:root {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: lightblue;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p{
+  font-size: 20px;
+  
+}
+
+.person-list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background-color: lightskyblue;
+}
+.work-list{
+  list-style-type: none;
+}
+.btn{
+  border-radius: 10%;
+  background-color: lightseagreen;
+}
+.input-text{
+  display: flex;
+ justify-content: center;
+ padding: 2rem;
+}
